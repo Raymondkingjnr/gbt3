@@ -1,0 +1,31 @@
+.gbt3__header {
+  display: flex;
+}
+.gbt3__header-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 5rem;
+}
+.gbt3__header-content h1 {
+  font-family: var(--font-family);
+
+  font-style: normal;
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  /* or 121% */
+
+  letter-spacing: -0.04em;
+}
+.gbt3__header-content p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #81afdd;
+}
