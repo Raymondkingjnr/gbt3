@@ -51,11 +51,12 @@ a {
 .gradient__text {
   background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
   -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 .section__padding {
   padding: 4rem 6rem;
 }
-.section__marging {
+.section__margin {
   margin: 4rem 6rem;
 }
 .scale-up-center {

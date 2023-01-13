@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <>
       <div className="gbt3__navbar">
-        <div className="gpt3__navbar-links">
+        <div className="gbt3__navbar-links">
           <div className="gbt3__navbar-links_logo">
             <img src={logo} alt="" />
           </div>
@@ -35,11 +35,11 @@ function Navbar() {
           <button type="button">Sing up</button>
         </div>
 
-        <div className="gpt3__navbar-menu">
+        <div className="gbt3__navbar-menu">
           {toggleMenu ? (
             <RiCloseFill
               color="#fff"
-              size={27}
+              size={37}
               onClick={() => setToggleMenu(false)}
             />
           ) : (
@@ -50,8 +50,8 @@ function Navbar() {
             />
           )}
           {toggleMenu && (
-            <div className="gpt3__navbar-menu_container scale-up-center">
-              <div className="gpt3__navbar-menu_container-links">
+            <div className="gbt3__navbar-menu_container scale-up-center">
+              <div className="gbt3__navbar-menu_container-links">
                 <p>
                   <a href="#home">Home</a>
                 </p>
@@ -68,7 +68,7 @@ function Navbar() {
                   <a href="#blog">Library</a>
                 </p>
               </div>
-              <div className="gpt3__navbar-menu_container-links-sign">
+              <div className="gbt3__navbar-menu_container-links-sign">
                 <p>Sign in</p>
                 <button type="button">Sign up</button>
               </div>
