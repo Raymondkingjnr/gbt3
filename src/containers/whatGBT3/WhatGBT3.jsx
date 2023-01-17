@@ -3,7 +3,7 @@ import Feature from "../../componenets/feature/Feature";
 import "./whatGBT3.css";
 
 const WhatGBT3 = () => (
-  <div className="gpt3__whatgpt3 section__margin" id="wgpt3">
+  <div className="gpt3__whatgpt3 section__padding" id="wgpt3">
     <div className="gpt3__whatgpt3-feature">
       <Feature
         title="What is GPT-3"
